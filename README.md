@@ -2,8 +2,6 @@
 
 # Shopping App with Redux and Material UI
 
-![Shopping App Logo](/path/to/your/logo.png)
-
 ## Description
 
 This project is a fully responsive shopping application built with React and utilizes libraries such as Redux, Redux Toolkit, and Material UI. The app allows users to browse a list of products fetched from the fakestore API, add items to their shopping basket, and proceed to checkout. The application also features user authentication with Redux, allowing users to sign in and access their personalized shopping experience.
