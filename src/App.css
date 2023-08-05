@@ -1,0 +1,194 @@
+body{
+    margin:0 auto;
+    font-family:initial;
+}
+#menu-item {
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+   
+}
+#menu-item a li button{
+    padding: 0;
+    font-family:initial;
+}
+#menu-item a li button:hover {
+    color:#ba2227;
+    transition: all 0.3s ease-in;
+}
+#footerInput{
+    padding-right: 0 !important;
+}
+ #mainSlider .swiper-slide{
+      width: 100% !important; 
+    height: 400px !important;
+}
+#mainSlider .swiper-slide img{
+    width: 100% !important; 
+    height: 400px !important;
+}
+
+#mainSlider .swiper-pagination-bullet{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #fff !important;
+    float: right;
+    margin-bottom: 1rem !important;
+
+    opacity: 0.7;
+    border: 2px solid rgba(0, 0, 0, 0.2) !important;
+}
+#mainSlider .swiper-pagination-bullet:first-child{
+    margin-right: 1rem !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: black;
+    padding: 5px;
+  color: #fff !important;
+  border-radius: 5px;
+  width: 20px;
+  height: 40px !important;
+  font-size: 5px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+} 
+.text-overlay {
+    font-family: initial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .text-overlay h2 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .text-overlay p {
+    font-size: 22px;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 5px 10px 5px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .text-overlay button {
+    font-size: 14px;
+    margin-top: 0.3rem;
+    padding: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  @media screen and (max-width:600px) {
+    #mainSlider .swiper-slide{
+        width: 100% !important; 
+      height: 300px !important;
+  }
+  #mainSlider .swiper-slide img{
+        width: 100% !important; 
+        height: 300px !important;
+    }
+}
+@media screen and (max-width:500px){
+    #mainSlider .swiper-slide{
+        width: 100% !important; 
+      height: 200px !important;
+  }
+  #mainSlider .swiper-slide img{
+        width: 100% !important; 
+        height: 200px !important;
+    }
+    .text-overlay h2 {
+        font-size: 22px;
+        color: #000;
+      }
+      
+      .text-overlay p {
+        font-size: 14px;
+ 
+        border-radius: 5px;
+        color: #000;
+        padding: 10px 5px 10px 5px;
+        width: fit-content;
+        margin: 0 auto;
+      }
+      .text-overlay button {
+        font-size: 12px;
+        margin-top: 0.2rem;
+        padding: 8px;
+        background-color: #000;
+        border: none;
+        border-radius: 5px;
+        border: 1px solid #fff;
+      }
+    
+}
+
+.man-banner-animattion {
+    opacity: 0; /* Set initial opacity to 0 to hide the items initially */
+    transform: translateY(50px); /* Optional: If you want to animate the vertical position */
+    animation: fadeInUp 1s forwards; /* Apply the animation with 1s duration and retain the final state */
+}
+
+
+.main-animation {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeInRight 1s forwards;
+}
+.main-animation2 {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeInLeft 1s forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Optional: Set the initial position for the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Optional: Set the final position for the animation */
+    }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px); /* Optional: Set the initial position for the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Optional: Set the final position for the animation */
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Optional: Set the initial position for the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Optional: Set the final position for the animation */
+    }
+}
+#addToBasketButton:hover{
+    background-color: rgba(201, 201, 168, 0.2) !important;
+    color: #1f6bc2;
+
+}
+#basketInput{
+    padding: 11px !important;
+}
