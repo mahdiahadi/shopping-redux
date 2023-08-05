@@ -1,4 +1,4 @@
-![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/db09ffd6-0aec-49fc-81e2-ead962fbcbd7)Absolutely! Let's make the README even more detailed and awesome:
+![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/1e73944c-0f62-4be4-978b-bdc441730f9f)Absolutely! Let's make the README even more detailed and awesome:
 
 # Shopping App with Redux and Material UI
 
@@ -31,9 +31,6 @@ This project is a fully responsive shopping application built with React and uti
 
 [Live Demo](https://reduxcenter.netlify.app/)
 
-![App Screenshots](![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/f7618637-9de5-4986-959a-a3d93c4ae011))
-![App Screenshots](![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/5b1e776d-8949-43af-b374-3880f117425f))
-![App Screenshots](![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/0fe1f04c-1c64-45db-a3b2-5095763678c4))
 
 ## Installation
 
