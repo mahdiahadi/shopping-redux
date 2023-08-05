@@ -1,4 +1,4 @@
-![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/1e73944c-0f62-4be4-978b-bdc441730f9f)Absolutely! Let's make the README even more detailed and awesome:
+![image](https://github.com/mahdiahadi/shopping-redux/assets/109126668/b124d8be-b4fa-495c-8bf3-f6b2b92bca9a)Absolutely! Let's make the README even more detailed and awesome:
 
 # Shopping App with Redux and Material UI
 
